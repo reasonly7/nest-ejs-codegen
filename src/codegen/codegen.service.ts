@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import ejs from 'ejs';
+import * as ejs from 'ejs';
 
 @Injectable()
 export class CodegenService {
