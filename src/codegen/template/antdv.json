@@ -1,5 +1,14 @@
 {
-  "./package.json.ejs": {
-    "name": "xxx-admin"
+  "package.json.ejs": {
+    "name": "xxx-admin",
+    "dependencies": [
+      {
+        "name": "vue-router",
+        "version": "^4.4.5"
+      }
+    ]
+  },
+  "index.html.ejs": {
+    "title": "xxx-admin"
   }
 }
