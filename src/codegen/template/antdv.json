@@ -1,5 +1,5 @@
 {
-  "package.json.ejs": {
+  "package.json": {
     "name": "xxx-admin",
     "dependencies": [
       {
@@ -8,7 +8,11 @@
       }
     ]
   },
-  "index.html.ejs": {
+  "index.html": {
     "title": "xxx-admin"
-  }
+  },
+  "src/router/index.ts": {
+    "routes": []
+  },
+  "src/views/user-view/IndexView.vue": {}
 }
